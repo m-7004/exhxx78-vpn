@@ -26,7 +26,7 @@ jobs:
           ./gradlew assembleFdroidDebug --no-daemon
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: exhxx78-vpn
           path: V2rayNG/app/build/outputs/apk/**/*.apk
