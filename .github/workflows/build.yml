@@ -23,10 +23,11 @@ jobs:
           cd V2rayNG
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
-          find . -name "*.apk" 2>/dev/null
+          find /home/runner/work -name "*.apk" 2>/dev/null
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: exhxx78-vpn
-          path: "**/*.apk"
+          path: V2rayNG/app/build/outputs/apk/**/*.apk
+          if-no-files-found: warn
