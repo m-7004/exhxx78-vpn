@@ -22,11 +22,11 @@ jobs:
         run: |
           cd V2rayNG
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
-          find /home/runner/work -name "*.apk" 2>/dev/null
+          ./gradlew assembleDebug --no-daemon 2>&1 | grep -E "error:|Error|FAILED|Exception" | tail -30
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: exhxx78-vpn
           path: V2rayNG/app/build/outputs/apk/**/*.apk
