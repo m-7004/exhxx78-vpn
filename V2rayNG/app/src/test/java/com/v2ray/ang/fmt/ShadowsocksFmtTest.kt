@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.exhxx78.vpn2.fmt
 
 import android.util.Base64
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.dto.entities.ProfileItem
+import com.exhxx78.vpn2.util.LogUtil
+import com.exhxx78.vpn2.enums.EConfigType
+import com.exhxx78.vpn2.dto.entities.ProfileItem
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

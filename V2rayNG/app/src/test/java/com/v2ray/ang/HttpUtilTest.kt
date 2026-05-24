@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.exhxx78.vpn2
 
-import com.v2ray.ang.util.HttpUtil
+import com.exhxx78.vpn2.util.HttpUtil
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

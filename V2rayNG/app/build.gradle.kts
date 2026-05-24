@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.v2ray.ang"
+    namespace = "com.exhxx78.vpn2"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        applicationId = "com.exhxx78.vpn2"
         minSdk = 24
         targetSdk = 37
         versionCode = 730

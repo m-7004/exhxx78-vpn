@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.exhxx78.vpn2
 
-import com.v2ray.ang.util.Utils
+import com.exhxx78.vpn2.util.Utils
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
