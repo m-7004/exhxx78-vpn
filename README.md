@@ -30,3 +30,4 @@ For a quick start, read guide for [Go Mobile](https://github.com/golang/go/wiki/
 
 v2rayNG can run on Android Emulators. For WSA, VPN permission need to be granted via
 `appops set [package name] ACTIVATE_VPN allow`
+# trigger
